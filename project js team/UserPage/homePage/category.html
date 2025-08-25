@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Category</title>
+  <link rel="stylesheet" href="../homePage/home.css" />
+</head>
+<body>
+
+      <!--     NavBar       -->
+    <div class="navbar">
+        <div class="logo">Elec<span>xo</span></div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">🔍</button>
+        </div>
+
+        <div class="navbar-links">
+            <a href="home.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </div>
+
+
+  <div class="all-products">
+    <div class="container">
+      <div class="top-bar">
+        <h2 id="category-title">Category</h2>
+      </div>
+      <div class="row" id="product-content">
+        <!-- Cards will be injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Men's Fashion</a></li>
+                    <li><a href="#">Women's Fashion</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#">Story.com</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instegram</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 Your E-commerce Store. All rights reserved.
+        </div>
+    </footer>
+
+  <script type="module" src="category.js"></script>
+</body>
+</html>

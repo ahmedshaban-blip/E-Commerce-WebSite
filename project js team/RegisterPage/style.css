@@ -1,0 +1,114 @@
+:root {
+    --main-colar: #0652AD;
+    --bg-color: #EDF4FF;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, var(--bg-color) 0%, var(--main-colar) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+.register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.register-box label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="password"],
+.register-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+.register-box textarea {
+    resize: vertical;
+    min-height: 80px;
+    border-color: #bbb;
+    transition: border-color 0.3s ease;
+}
+.register-box textarea:focus,
+.register-box input:focus:not([type="radio"]) {
+    outline: none;
+    border-color: var(--main-colar);
+    box-shadow: 0 0 5px var(--main-colar);
+}
+.register-box .radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+.register-box .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.register-box input[type="radio"] {
+    accent-color: var(--main-colar);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.register-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--main-colar);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+.register-box button:hover {
+    background-color: var(--main-colar);
+}
+.register-box p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.register-box a {
+    color: var(--main-colar);
+    text-decoration: none;
+}
+
+.register-box a:hover {
+    text-decoration: underline;
+}
+
+#YourID-container {
+    display: none;
+}
+.error-message {
+  color: #d93025; /* لون أحمر */
+  font-size: 12px;
+  display: none; /* إخفاء الرسالة بشكل افتراضي */
+  margin-top: 4px;
+}

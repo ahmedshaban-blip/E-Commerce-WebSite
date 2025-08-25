@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>paypal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="paypal.css" />
+  </head>
+  <body>
+    <div class="checkout-card">
+      <h2>إتمام عملية الدفع</h2>
+      <p class="total-price">المبلغ الإجمالي: <span></span></p>
+
+      <div id="paypal-button-container"></div>
+
+      <div id="success-message" style="display: none">
+        ✅ تم الدفع بنجاح! شكرًا لك.
+      </div>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AZavGy_LgWkMO3mmis2PmVEho6eP5-HwCcdGyToxysA1g51bNfRLXycw2fBa7uovNrXY8wcaCvVywFt6&currency=USD"></script>
+
+    <script src="paypal.js"></script>
+  </body>
+</html>

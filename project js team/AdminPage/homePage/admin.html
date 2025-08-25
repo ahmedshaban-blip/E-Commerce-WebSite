@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Admin</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar" >
+    <div class="logo">Elec<span>xo</span></div>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search By Product Name..." />
+    </div>
+
+    <div class="navbar-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+      <button id="Logout" onclick="logout()">
+        Logout
+      </button>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+  </div>
+<!-- Header -->
+  <div class="welcomeClass" data-aos="fade-up" data-aos-duration="500">
+    <button onclick="location.href='../addproduct/addproduct.html'">
+      <h2>Add Product</h2>
+    </button>
+  </div>
+  <!-- Category filter -->
+  <div class="filters-container" style="margin-bottom: 20px;"  data-aos="fade-down" data-aos-duration="2000">
+    <label for="categoryFilter">Filter by Category:</label>
+    <select id="categoryFilter">
+      <option value="">Select Category</option>
+      <option value="Smart Phone">Smart Phone</option>
+      <option value="accessories">Accessories</option>
+      <option value="Laptop">Laptop</option>
+      <option value="Camera">Camera</option>
+      <option value="Gaming">Gaming</option>
+      <option value="Smart Watch">Smart Watch</option>
+    </select>
+  </div>
+
+  <!-- Product List -->
+  <div class="row" id="productList"data-aos="fade-up" data-aos-duration="2000"></div>>
+    <!-- Products will be loaded here by JS -->
+  </div>
+  <!-- Footer -->
+  <footer class="footer" data-aos="fade-up" data-aos-duration="3000">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="#">Men's Fashion</a></li>
+          <li><a href="#">Women's Fashion</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#">Story.com</a>
+          <a href="#">Facebook</a>
+          <a href="#">Instegram</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-bottom">
+      &copy; 2025 Your E-commerce Store. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="./admin-script.js"></script>
+
+  <script>
+    //logout function
+    function logout() {
+
+      window.location.href = "../../LoginPage/loginPage.html";
+    }
+
+    //Aos
+    AOS.init();
+  </script>
+  </script>
+</body>
+
+</html>

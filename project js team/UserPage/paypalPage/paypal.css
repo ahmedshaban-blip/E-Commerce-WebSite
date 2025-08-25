@@ -1,0 +1,38 @@
+ body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background-color: #f4f5f7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        direction: rtl;
+      }
+      .checkout-card {
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+      }
+      h2 {
+        color: #333;
+        margin-bottom: 15px;
+      }
+      .total-price {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 30px;
+      }
+      .total-price span {
+        font-weight: bold;
+        color: #0070ba;
+      }
+      #success-message {
+        color: #28a745;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 1.1em;
+      }

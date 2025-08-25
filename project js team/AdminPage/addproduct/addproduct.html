@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product</title>
+    <link rel="stylesheet" href="./addproduct.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Add New Product</h2>
+      
+      <div id="successMessage" class="message success-message " ></div>
+      <div id="errorMessage" class="message error-message"></div>
+
+      <form id="productForm">
+        <label>Product Image:</label>
+        <input type="file" id="productImage" accept="image/*" required />
+
+        <label>Product Name:</label>
+        <input type="text" id="productName" required />
+
+        <label>Price (USD):</label>
+        <input type="number" id="productPrice" required />
+
+        <label>Description:</label>
+        <textarea id="productDescription" rows="3" required></textarea>
+
+        <label>Stock:</label>
+        <input type="number" id="productStock" min="0" step="1" required />
+
+        <label>Category:</label>
+        <select id="productCategory" required>
+          <option value="">Select Category</option>
+          <option value="Smart Phone">Smart Phone</option>
+          <option value="accessories">Accessories</option>
+          <option value="Laptop">Laptop</option>
+          <option value="Camera">Camera</option>
+          <option value="Gaming">Gaming</option>
+          <option value="Smart Watch">Smart Watch</option>
+        </select>
+
+        <button type="submit">Add Product</button>
+      </form>
+    </div>
+
+    <script type="module" src="addproduct.js"></script>
+
+    </body>
+</html>
