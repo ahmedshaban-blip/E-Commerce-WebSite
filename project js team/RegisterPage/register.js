@@ -257,7 +257,7 @@
 
 // ------------------- الإعداد والاتصال بـ Firebase -------------------
 // استيراد الدوال اللازمة من مكتبة Firebase
-import { auth, db } from "/E-Commerce-WebSite/project%20js%20team/firebase-config.js"; // auth للمصادقة, db لقاعدة البيانات
+import { auth, db } from '../firebase-config.js'; // auth للمصادقة, db لقاعدة البيانات
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js"; // دالة لإنشاء حساب جديد
 import {
   doc,
