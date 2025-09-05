@@ -1,5 +1,9 @@
 # E-Commerce Website
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ahmedshaban-blip/E-Commerce-WebSite)
+<p align="center">
+  <a href="https://deepwiki.com/ahmedshaban-blip/E-Commerce-WebSite">
+    <img src="https://deepwiki.com/badge.svg" width="220">
+  </a>
+</p>
 
 This is a full-featured e-commerce web application built with vanilla JavaScript, Firebase for backend services, and Supabase for image storage. It provides a complete shopping experience for users and a comprehensive management dashboard for administrators.
 
