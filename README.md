@@ -17,7 +17,7 @@ A modern, full-featured e-commerce web application built with vanilla JavaScript
 
 ## 🌟 Live Demo
 
-[View Live Demo](https://github.com/ahmedshaban-blip/E-Commerce-WebSite)
+[View Live Demo](https://ahmedshaban-blip.github.io/E-Commerce-WebSite/)
 
 ## 📋 Table of Contents
 
