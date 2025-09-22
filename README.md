@@ -169,20 +169,20 @@ E-Commerce-WebSite/
 ## 📸 Screenshots
 
 ### Customer Interface
-![Homepage](screenshots/homepage.png)
+![Homepage](https://github.com/ahmedshaban-blip/E-Commerce-WebSite/blob/main/project%20js%20team/images/Home.png?raw=true)
 *Modern product catalog with category filtering*
 
-![Product Details](screenshots/product-details.png)
+![Product Details](https://github.com/ahmedshaban-blip/E-Commerce-WebSite/blob/main/project%20js%20team/images/productDetails.png?raw=true)
 *Detailed product view with image gallery*
 
-![Shopping Cart](screenshots/cart.png)
+![Shopping Cart](https://github.com/ahmedshaban-blip/E-Commerce-WebSite/blob/main/project%20js%20team/images/shoppingCart.png?raw=true)
 *Intuitive cart management interface*
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](https://github.com/ahmedshaban-blip/E-Commerce-WebSite/blob/main/project%20js%20team/images/AdminDashboard.png?raw=true)
 *Comprehensive admin control panel*
 
-![Product Management](screenshots/product-management.png)
+![Product Management](https://github.com/ahmedshaban-blip/E-Commerce-WebSite/blob/main/project%20js%20team/images/productManagment.png?raw=true)
 *Advanced product CRUD operations*
 
 ## 🚀 Getting Started
